@@ -1,0 +1,35 @@
+# --- Python 相關 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+library.db
+.ipynb_checkpoints
+
+# --- 環境變數
+.env
+.env.local
+.env.*
+
+# --- 向量資料庫 (Chroma) ---
+# 如果你不希望本地的索引資料上傳到 GitHub，請取消註解下面這行
+chroma_db/
+
+# --- LangGraph / LangChain 相關 ---
+.langgraph/
+.langchain/
+langchain.log
+
+# --- IDE 與 系統相關 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
