@@ -25,6 +25,8 @@ chroma_db/
 .langgraph/
 .langchain/
 langchain.log
+.langgraph_api/
+
 
 # --- IDE 與 系統相關 ---
 .vscode/
