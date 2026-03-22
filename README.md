@@ -30,7 +30,7 @@
 建議使用 Python 3.10 以上版本，並安裝 `langgraph-cli`：
 ```bash
 pip install -r requirements.txt
-pip install -U langgraph-cli
+pip install -U "langgraph-cli[inmem]"
 ```
 
 ### 2. 設定環境變數 (`.env`)
